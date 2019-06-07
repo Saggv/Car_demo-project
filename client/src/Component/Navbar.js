@@ -65,7 +65,7 @@ class Navbarvigation extends Component {
         if( user.isAuth === "true"){
             return authLink;
         }
-        if(user.isAuth === "false"){
+        if(user.isAuth === "false" || user.isAuth ===null){
             return gustLink;
         }
     }
