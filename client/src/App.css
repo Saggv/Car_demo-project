@@ -1,0 +1,146 @@
+body{
+    padding:0;
+    margin: 0;
+}
+/*=====nav====*/
+.nav-link{
+    color:#fff;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+.backgroun-product{
+    background-color: rgba(242, 239, 245, 0.849);
+
+}
+/* ===== HOME ====*/
+#home-box{
+    width: 100%;
+    height: 705px;
+    position: relative;
+    cursor: pointer;
+}
+.home-content{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color:rgba(39, 34, 44, 0.274);
+    overflow: hidden;
+    letter-spacing: 5px;
+    color: #fff;
+    width: 0;
+    height:100%;
+    transition: 2s ease;
+    
+}
+#home-box:hover .home-content{
+    width: 100%;
+
+}
+.detail_home{
+     width: 50%;
+     height: 400px;
+     margin:auto;
+     padding-left: 10%;
+     margin-top:10%;
+}
+
+/* ===== image =====*/
+.col-md-6{
+    padding:0;
+    margin: 0;
+    padding-bottom: 10px;
+}
+#box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.boximage{
+    position: relative;
+    width:100%;
+    height: 400px;
+}
+.showbackground{
+    position:absolute;
+    color:#fff;
+    letter-spacing: 5px;
+    text-align: center;
+     width: 100%;
+     height: 0;
+     transition: 2s;
+     top:0;
+     background: rgba(39, 34, 44,0.5);
+     opacity: 0;
+}
+.boximage:hover .showbackground{
+    height: 100%;
+    padding:20%;
+    opacity: 1;
+}
+
+/* ===== ASSET =====*/
+.asset_box{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    margin-bottom: 2%;
+}
+.asset_box img{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    margin-bottom: 2%;
+}
+.background_imgasset{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(51, 61, 58, 0.5);
+    height: 0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: 2s;
+    height: 0;
+    margin: auto;
+    color: black;
+}
+.asset_box:hover .background_imgasset{
+    height: 100%;
+     opacity: 1;
+     padding:5%;
+ 
+}
+.detail_asset{
+    width: 45%;
+    height:400px;
+    color: #fff;
+    letter-spacing: 4px;
+    margin: auto;
+    padding-left: 5%;
+
+}
+.text_asset{
+   width: 200px;
+   display:inline-block;
+   color: black;
+   font-weight: 600;
+   letter-spacing: 0;
+}
+.clear{
+     text-align: right;
+}
+.title{
+     letter-spacing: 9px;
+}
+@media screen and (max-width:500px){
+    .detail_asset{
+        width: 100%;
+        height:400px;
+    }
+    .btn{
+        width:100%;
+    }
+}
+
+
