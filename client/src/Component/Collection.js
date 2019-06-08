@@ -46,15 +46,13 @@ class Collection extends Component {
                                              <h4 className="text-center title"  >{item.name}</h4> <br/>
                                             <label className="text_asset"> Price : </label> <b>${item.price}</b> <br/>
                                             <hr/>
-                                            <label className="text_asset">Tăng Tốc</label> <b>{item.speed}km/h</b> <br/>
+                                            <label className="text_asset">Tăng Tốc</label> <b>{item.speed}s</b> <br/>
                                             <hr/>
                                             <label className="text_asset">Công Suât </label>  <b>{item.capacity} mã lực</b> <br/>
                                             <hr/>
                                             <label className="text_asset">Tốc độ tối đa </label> <b>{item.maxspeed}km/h</b> <br/>
                                             <hr/>
                                             <label className="text_asset">Khối Lượng</label> <b>{item.mass} kg</b>  <br/>
-                                            <hr/>
-                                            <label className="text_asset">Mô men xoắn</label> <b>1,475lb ft</b>  <br/>
                                             <hr/>
                                             <label className="text_asset"> <button className="btn btn-danger pl-5 pr-5" onClick={()=>this.props.deleteAsset(item._id)}> Clear</button></label>
                                             <label className="text_asset"> <button className="btn btn-info pl-5 pr-5" onClick={()=>this.AllPrice()}> Trị Giá</button></label>

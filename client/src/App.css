@@ -141,6 +141,12 @@ body{
     .btn{
         width:100%;
     }
+    .text_asset{
+        display: block;
+     }
+     .detail_home{
+         width:100%;
+     }
 }
 
 
