@@ -41,7 +41,7 @@ class Product extends Component {
           this.props.deleteproduct(id);
       }
       addToCollection1=(item)=>{
-           alert("them thanh comg");
+           alert("Thêm thành công !");
            this.props.addToCollection(item)
       }
 

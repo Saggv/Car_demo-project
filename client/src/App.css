@@ -1,6 +1,10 @@
 body{
-    padding:0;
+    padding:0px;
     margin: 0;
+}
+div.col-md-12{
+    padding-left: 0px;
+    padding-right: 0px;
 }
 /*=====nav====*/
 .nav-link{
@@ -15,9 +19,10 @@ body{
 /* ===== HOME ====*/
 #home-box{
     width: 100%;
-    height: 705px;
+    /* height: 705px; */
     position: relative;
     cursor: pointer;
+    padding:0;
 }
 .home-content{
     position: absolute;
@@ -50,6 +55,7 @@ body{
     margin: 0;
     padding-bottom: 10px;
 }
+
 #box{
     width: 100%;
     height: 100%;
@@ -77,12 +83,15 @@ body{
     padding:20%;
     opacity: 1;
 }
-
+.row{
+    padding:0;
+}
 /* ===== ASSET =====*/
 .asset_box{
     position: relative;
     width: 100%;
     height: 700px;
+    padding:0;
     margin-bottom: 2%;
 }
 .asset_box img{

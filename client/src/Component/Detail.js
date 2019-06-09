@@ -21,7 +21,7 @@ class Detail extends Component {
                                                     <hr/>
                                                     <label className="text_asset"> Price : </label> <b>${item.price}</b> <br/>
                                                     <hr/>
-                                                    <label className="text_asset">Tăng Tốc</label> <b>{item.speed}km/h</b> 
+                                                    <label className="text_asset">Tăng Tốc</label> <b>{item.speed}</b> 
                                                      <hr/>
                                                      <label className="text_asset">Công Suât </label>  <b>{item.capacity} mã lực</b> 
                                                     <hr/>
