@@ -9,7 +9,7 @@ function Routerss() {
   return (
       <div>
         <Route exact path="/" component={Home} />
-        <Route path="/product" component={Product} ></Route>
+        <Route path="/product" component={Product} />
         <Route path="/detail/:slug.:id.html" component={Detail} />
         <Route path="/collection" component={Collection} />
       </div>
