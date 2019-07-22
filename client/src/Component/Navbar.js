@@ -80,7 +80,7 @@ class Navbarvigation extends Component {
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                              <NavLink to='/product' activeClassName="selected" className="nav-link"> Product</NavLink>
+                              <NavLink to='/products' activeClassName="selected" className="nav-link"> Product</NavLink>
                             </NavItem> 
                             <Fragment>
                             
